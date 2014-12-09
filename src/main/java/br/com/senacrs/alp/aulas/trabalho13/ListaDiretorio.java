@@ -76,9 +76,9 @@ public class ListaDiretorio {
 		for (String elemento : list) {
 			fileElemento = new File(diretorio + File.separator + elemento);
 			if (tipo == TIPO_ARQUIVO && fileElemento.isFile()) {
-				lista.add("a " + elemento);
+				lista.add("arq " + elemento);
 			} else if (tipo == TIPO_DIRETORIO && fileElemento.isDirectory()) {
-				lista.add("d " + elemento);
+				lista.add("dir " + elemento);
 			}
 		}
 
