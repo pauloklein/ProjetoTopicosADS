@@ -10,7 +10,7 @@ public class ListaDiretorio {
 
 	public String[] listaConteudoDiretorio(String diretorio) {
 
-		File dir = null;
+		File dir1 = null;
 		String[] list = null;
 		String[] mensagem = null;
 		String caminhoTemp = null;
