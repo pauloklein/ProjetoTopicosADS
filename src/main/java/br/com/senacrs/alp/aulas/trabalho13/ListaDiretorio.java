@@ -78,7 +78,7 @@ public class ListaDiretorio {
 			if (tipo == TIPO_ARQUIVO && fileElemento.isFile()) {
 				lista.add("a " + elemento);
 			} else if (tipo == TIPO_DIRETORIO && fileElemento.isDirectory()) {
-				lista.add("dir " + elemento);
+				lista.add("d " + elemento);
 			}
 		}
 
